@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horizontal Scrolling Page</title>
+	<meta name="description" content="">
+	<meta name="author" content="Todd Shelton">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
+
+
+	<style>
+
+			*{
+				margin : 0;
+			}
+
+			html, body{
+				height:100%;
+			}
+
+			.wrapper{
+				height:100%;
+				background-color:orange;
+			}
+
+			.view{
+				height:100%;
+				background-color:lightgreen;
+			}
+
+			.hpage{
+				height:100%;
+				width: 100%;
+				background-color: blue;
+				display: inline-block;
+			}
+			.surroundContainer{
+				height:100%;
+				white-space: nowrap;
+				overflow: auto;
+			}
+	</style>
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<div class="surroundContainer">
+			<div class="hpage">View 1
+
+					
+			</div>
+		<div class="hpage">View 2</div>
+		
+	</div>
+
+</body>
+</html>
